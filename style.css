@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.container{
+    width: 10rem;
+    height: 10rem;
+    border-top: 1em solid crimson;
+    border-right: 1em solid transparent;
+    border-radius: 50%;
+    margin: auto;
+    animation: container 2s linear infinite;
+
+}
+
+.circle{
+    width: 1em;
+    height: 1em;
+    background-color: crimson;
+    border-radius: 50%;
+    margin-left: 8.5em;
+    margin-top: .42em;
+}
+
+@keyframes container {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
